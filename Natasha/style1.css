@@ -1,0 +1,712 @@
+
+   body {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+  
+    }
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+    .search-container {
+      margin: 20px auto;
+      text-align: center;
+    }
+    
+    input[type=text] {
+      padding: 10px;
+      width: 300px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    button[type=submit] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+  .bnt-busca{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .bnt-busca .barra   {
+    width: 300px;
+    height: 20px;
+  }
+
+  .botao{
+    width: 100px;
+    border-radius: 5px;
+  }
+
+    header ul:hover{
+      text-decoration:underline;
+      color: pink;
+      font-size: 21px;
+      transition: 0.5s;
+    }
+
+    header span{
+      float: left;
+      margin-right: auto;
+      padding-left: 10px;
+      font-size: 30px;
+    }
+    
+
+    header{
+      display: flex;
+      background-color: #cccccc2d;
+      justify-content:space-around;
+      align-items: center;
+      font-size: 10px;
+    }
+ 
+     img{
+     width: 70px;
+     height: 60px;
+    padding-bottom: 20px;
+    padding-left: 20px,20px;
+    justify-content: start;
+    }
+
+
+   header a{
+    text-decoration: none;
+    color: #000;
+   }
+
+   header ul{
+    list-style: none;
+    font-size: 20px;
+    padding-right: 10px;
+   }
+   
+    .header2{
+      height: 270px;
+    }
+
+    .header2{
+      display: flex;
+      justify-content:space-around;
+      font-size: 20px;
+    }
+
+   .header2  a{
+    text-decoration: none;
+    color: #000;
+    padding-top: 5px;
+
+  }
+
+  .header2 ul{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .header2 :hover{
+    color: pink;
+    font-size: 24px;
+    transition: 0.5s;
+  }
+
+  .header2 {
+    background-image: url(/produtos_imgs/fundo.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: #128c7e 20px;
+    
+  }
+
+    nav{
+      justify-content: space-around;
+      display: flex;
+      padding-top: 20px;
+      padding-right: 30px;
+      gap: 20px;
+      justify-content: end;
+    }
+
+    nav a{
+      text-decoration: none;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #000;
+      font-size: 20px;
+    }
+
+    nav ul{
+      list-style: none;
+    }
+
+    nav ul li :hover{
+      color: rgb(247, 115, 137);
+      transform: translateY(3px); 
+    }
+
+
+    .navbar{
+      font-size: 35px;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25d366; /* Cor do botão do WhatsApp */
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    
+    .whatsapp-button:hover {
+      background-color: #128c7e; /* Cor do botão do WhatsApp ao passar o mouse */
+    }
+
+    .card:hover{
+      border: 3px solid pink;
+    }
+    
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin: 20px;
+      overflow: hidden;
+      transition: transform 1.0s ease;
+      width: 300px;
+      margin: 30px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .card-description {
+      color: #555;
+    }
+
+    .company-section {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+  }
+
+  .company-text p{
+    width: 400px;
+  }
+  
+  .company-text {
+      margin-right: auto;
+  }
+  
+  .company-text h2 {
+      color: #333;
+      font-size: 24px;
+  }
+  
+  .company-text p {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.5;
+  }
+
+  .company-section img{
+    height: 300px;
+    width: 400px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+  }
+
+  .company-text h3, span{
+    color: pink;
+  }
+ 
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    footer{
+      background-color: #d3d2d238;
+    }
+
+  footer .container{
+  display:inline-block;
+  font-size: 13px;
+  }
+
+  .Pagamentos{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .Pagamentos img{
+    width: 400px;
+  }
+  .voltar {
+    text-align: end;
+  }
+  
+  .whatsapp-button {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.voltar{
+  font-size: 50px;
+  margin-right: 0px;
+}
+
+header{
+  padding: 20px; /* Espaçamento interno para separar o conteúdo das bordas */
+  transition: box-shadow 0.3s ease; 
+}
+
+
+header:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave quando o cursor passa sobre */
+}
+
+
+.Busca {
+  background-color: #f2f2f2d8; /* Cor de fundo */
+  padding: 20px; /* Espaçamento interno para separar o conteúdo das bordas */
+  transition: box-shadow 0.3s ease; 
+}
+
+.Busca:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave quando o cursor passa sobre */
+}
+
+
+.Busca h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.Busca span{
+  color: pink;
+}
+
+section{
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+section {
+  transition: box-shadow 0.3s ease;
+  box-sizing: border-box; 
+}
+
+section .card1:hover {
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.1);
+  border: 1px solid pink;
+}
+
+.card1 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left:  17px;
+  padding-bottom: 30px;
+  width: 250px;
+  height: 180px;
+  font-size: 15px;
+}
+
+h3{
+  text-align: center;
+  font-size: 19px;
+}
+
+h3 span{
+  color: pink;
+}
+
+.card1 h3 {
+  color: #333;
+}
+
+.card1 p {
+  color: #666;
+}
+
+@media (max-width: 480px){
+
+  body{
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+      .search-container input{
+          width: 150px;
+      }
+      
+      header{
+        height: 50px;
+      }
+  
+  
+  .header2{
+        flex-direction: row;
+      }
+
+      .header2{
+        height: 130px;
+        width: 450px
+      }
+
+      .header2{
+        display: flex;
+        font-size: 14px;
+      }
+
+      .header2 ul{
+        display: flex;
+        justify-content: space-between; /* Espaçamento igual entre itens */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+      }
+
+        header ul, li, a :hover{
+          color: pink;
+        }
+
+      header ul{
+        width: 100px;
+      }
+
+       header span{
+        font-size: 20px;
+        margin-right: 1px;
+       }
+      .Busca{
+        margin-top: 5px;
+      }
+
+      header{
+        width: 410px;
+        border-radius: 10px;
+      }
+
+     header ul li a{
+      font-size: 14px;
+      padding-right: 20px;
+      margin: auto;
+     }
+
+     hr{
+      width: 300px;
+     }
+
+     .Busca{
+      width: 410px;
+      border-radius: 10px;
+     }
+
+     .Busca h3{
+      font-size: 15px;
+     }
+
+     .container{
+      flex-direction: row;
+      margin-right: 20px;
+     }
+
+     .container .card{
+      height: 600px;
+     }
+
+     #especialidade{
+      margin-right: 90px;
+      height: 300px;
+      width: 300px;
+      flex-direction: column;
+     }
+
+     #especialidade p{
+      font-size: 15px;
+      padding-right: 13px;
+     }
+
+     .company-section {
+      margin-top: 600px;
+      margin-right: 10px;
+      margin-bottom: 1px;
+     }
+
+     .company-section img{
+      width: 390px;
+    
+     }
+
+     .company-text{
+      margin-right: 300px;
+     }
+
+     footer{
+      margin-top: 50px;
+      width: 490px;
+      flex-direction: column;
+     }
+     
+     h3 span{
+      margin-right: 20px;
+     }
+     
+
+     .Pagamentos img{
+      height: 200px;
+      margin-left: 40px;
+     }
+
+     .Voltar{
+      display: flex;
+     }
+
+  }
+
+
+
+@media (max-width: 600px) {
+  .header2 {
+      flex-direction: row;
+  }
+
+  .header2 nav ul {
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+  }
+
+  .header2 nav ul li {
+      margin: 0;
+  }
+
+  .card1 {
+      width: 100px;
+      margin-bottom: 20px;
+      font-size: 10px;
+      margin: 10px;
+  }
+
+  
+}
+
+
+@media (max-width: 992px) {
+  .header2 {
+      flex-direction: row;
+  }
+
+  .header2 nav ul {
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+  }
+
+  .header2 nav ul li {
+      margin: 0;
+  }
+
+  .card1 {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .company-section{
+    flex-direction: column;
+  }
+
+  .company-section img,h2,p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .company-section h2{
+    margin-left: 330px;
+  }
+
+  .company-section p{
+    margin-left: 300px;
+  }
+
+  section{
+    flex-direction: column;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px;
+    margin-right: 350px;
+    
+  }
+
+}
+
+
+@media (max-width: 375px) {
+  .header2 {
+      flex-direction: row;
+      font-size: 10px;
+      padding-right: 20px;
+  }
+
+  hr{
+    width: 300px;
+  }
+
+  .header2{
+    max-height: 100px;
+  }
+
+  .header2 nav ul {
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+  }
+
+  .header2 nav ul li {
+      margin: 0;
+  }
+
+  .card1 {
+      margin-bottom: 20px;
+      font-size: 12px;
+      width: 170px;
+      padding-right: 15px;
+      margin-left: 70px;
+      margin-right: auto;
+
+  }
+
+  section{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .company-section{
+    flex-direction: column;
+  }
+
+  .company-section img{
+    margin-right:auto;
+    margin-left: auto;
+    height: 200px;
+    width: 350px;
+  }
+
+  .company-section h2{
+    margin-left: 10px;
+    margin-right: 330px;
+  }
+
+  .company-section p{
+    margin-left: 10px;
+    margin-right: 330px;
+    height: 200px;
+    width: 350px;
+  }
+
+  header ul{
+    font-size: 9px;
+  }
+
+  header span{
+    font-size: 20px;
+  }
+
+  .header2{
+    transition: none;
+  }
+
+.header2{
+  margin: 0px;
+  padding-right: 10px;
+}
+
+  .header2 ul:hover{
+    font-size: 15px;
+  }
+
+  .search-container form input{
+    width: 200px;
+  }
+
+}
